@@ -10,6 +10,12 @@ public class TestarData {
         System.out.println("MES: " + date.retMes());
         System.out.println("ANO: " + date.retAno());
 
+        if (date.bissexto()) {
+            System.out.print("Ano é bissexto");
+        } else {
+            System.out.println("Ano não é bissexto");
+        }
+
         System.out.println("--------------------------------------");
 
         date.entraDia();
@@ -22,6 +28,12 @@ public class TestarData {
         System.out.println("DIA: " + date.retDia());
         System.out.println("MES: " + date.retMes());
         System.out.println("ANO: " + date.retAno());
+
+        if (date.bissexto()) {
+            System.out.print("Ano é bissexto");
+        } else {
+            System.out.println("Ano não é bissexto");
+        }
 
     }
 }
